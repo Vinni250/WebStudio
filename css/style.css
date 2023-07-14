@@ -1,0 +1,45 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --second-text-color: #FFFFFF;
+    --background-button-color: #2196F3;
+    --primery-background-color: #FFF;
+    --background-team-color: #F5F4FA;
+    --logo-color: #000;
+    --secondary-background-color: #2F303A;  
+  }
+  body{
+      padding: 0 215px;
+      color: var(--primary-text-color);
+  background-color: var(--primery-background-color);
+  }
+  /*header*/
+  .logo{
+      color: var(--logo-color);
+  }
+  .blue{
+      color: var(--background-button-color);
+  }
+  .site-list{
+      color: var(--title-text-color);
+  }
+  /*post*/
+  .post{
+   background: var(--secondary-background-color);   
+  }
+  .post-title{
+      color: var(--second-text-color);
+  }
+  .post-button{
+      color: var(--second-text-color);
+      background: var(--background-button-color);
+      cursor: pointer;
+  }
+  /*benefits*/
+  .benefits-name{
+      color: var(--title-text-color);
+      font-size: 14px;
+  }
+  .benefits-text{
+      font-size: 14px;
+  }
